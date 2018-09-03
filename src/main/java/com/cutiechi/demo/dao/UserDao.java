@@ -1,5 +1,10 @@
 package com.cutiechi.demo.dao;
 
-public interface UserDao {
+import com.cutiechi.demo.model.entity.User;
 
+import java.util.List;
+
+public interface UserDao {
+    
+    List<User> listAll ();
 }
